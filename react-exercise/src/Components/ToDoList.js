@@ -9,7 +9,7 @@ const ToDoList = () => {
   };
   let res = [];
   Object.entries(list).forEach(([cont, desc]) => {
-    res.push(<ToDoItem content={cont} description={desc} />);
+    res.push(<ToDoItem content={cont} details={desc} />);
   });
 
   return (
